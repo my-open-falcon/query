@@ -3,8 +3,8 @@ package graph
 import (
 	"errors"
 	"fmt"
-	"github.com/open-falcon/common/model"
-	"github.com/open-falcon/query/g"
+	"github.com/my-open-falcon/common/model"
+	"github.com/my-open-falcon/query/g"
 	"github.com/toolkits/logger"
 	"github.com/toolkits/rpool/conn_pool"
 	"math"

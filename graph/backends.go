@@ -2,8 +2,8 @@ package graph
 
 import (
 	"errors"
-	"github.com/open-falcon/common/model"
-	"github.com/open-falcon/query/g"
+	"github.com/my-open-falcon/common/model"
+	"github.com/my-open-falcon/query/g"
 	"github.com/toolkits/cpool"
 	"github.com/toolkits/logger"
 	"github.com/toolkits/rpool/conn_pool"

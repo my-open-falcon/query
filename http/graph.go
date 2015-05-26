@@ -3,8 +3,8 @@ package http
 import (
 	"encoding/json"
 	"errors"
-	"github.com/open-falcon/common/model"
-	"github.com/open-falcon/query/graph"
+	"github.com/my-open-falcon/common/model"
+	"github.com/my-open-falcon/query/graph"
 	"github.com/toolkits/logger"
 	"net/http"
 	"strconv"

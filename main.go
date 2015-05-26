@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/open-falcon/query/g"
-	"github.com/open-falcon/query/graph"
-	"github.com/open-falcon/query/http"
+	"github.com/my-open-falcon/query/g"
+	"github.com/my-open-falcon/query/graph"
+	"github.com/my-open-falcon/query/http"
 	"github.com/toolkits/logger"
 	"os"
 	"os/signal"
@@ -23,7 +23,7 @@ func main() {
 		os.Exit(0)
 	}
 	if *versionGit {
-		fmt.Println(g.VERSION, g.COMMIT)
+		fmt.Println(g.VERSION)
 		os.Exit(0)
 	}
 

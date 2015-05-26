@@ -2,7 +2,7 @@ package http
 
 import (
 	"fmt"
-	"github.com/open-falcon/query/g"
+	"github.com/my-open-falcon/query/g"
 	"github.com/toolkits/file"
 	"net/http"
 )
@@ -17,7 +17,7 @@ func configCommonRoutes() {
 	})
 
 	http.HandleFunc("/versiongit", func(w http.ResponseWriter, r *http.Request) {
-		s := fmt.Sprintf("%s %s", g.VERSION, g.COMMIT)
+		s := fmt.Sprintf("%s %s", g.VERSION)
 		w.Write([]byte(s))
 	})
 
